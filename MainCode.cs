@@ -22,10 +22,6 @@ namespace SpyWare
         {
 
             DriveInfo[] AllDrivers = DriveInfo.GetDrives();
-            string[] PathForRootDirectories = AllDrivers.Select(Driver => Driver.Name).ToArray();
-            List<string> ListWithAllDirectories = new List<string>();
-            List<string> ListWithAllDirectories = new List<string>();
-            List<string> ListWithAllDirectories = new List<string>();
             List<string> BlackList = new List<string>();
             for (int i = 0; i < PathForRootDirectories.Length; i++)
             {
