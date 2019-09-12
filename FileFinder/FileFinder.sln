@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFinder", "FileFinder\FileFinder.csproj", "{27A39BA0-8D7C-49C3-BBCF-47FE7D44DB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileFinder.Tests", "FileFinder.Tests\FileFinder.Tests.csproj", "{07B3308C-460A-4A21-A455-1BBD7D11D784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A39BA0-8D7C-49C3-BBCF-47FE7D44DB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A39BA0-8D7C-49C3-BBCF-47FE7D44DB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A39BA0-8D7C-49C3-BBCF-47FE7D44DB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A39BA0-8D7C-49C3-BBCF-47FE7D44DB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B3308C-460A-4A21-A455-1BBD7D11D784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B3308C-460A-4A21-A455-1BBD7D11D784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B3308C-460A-4A21-A455-1BBD7D11D784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B3308C-460A-4A21-A455-1BBD7D11D784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A38D83D2-34CC-43F8-96CE-9FF20F11C345}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\obj\Debug\netcoreapp2.2\FileFinder.csprojAssemblyReference.cache
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\obj\Debug\netcoreapp2.2\FileFinder.csproj.CoreCompileInputs.cache
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\obj\Debug\netcoreapp2.2\FileFinder.AssemblyInfoInputs.cache
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\obj\Debug\netcoreapp2.2\FileFinder.AssemblyInfo.cs
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\bin\Debug\netcoreapp2.2\FileFinder.deps.json
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\bin\Debug\netcoreapp2.2\FileFinder.runtimeconfig.json
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\bin\Debug\netcoreapp2.2\FileFinder.runtimeconfig.dev.json
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\bin\Debug\netcoreapp2.2\FileFinder.dll
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\bin\Debug\netcoreapp2.2\FileFinder.pdb
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\obj\Debug\netcoreapp2.2\FileFinder.dll
+C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\obj\Debug\netcoreapp2.2\FileFinder.pdb

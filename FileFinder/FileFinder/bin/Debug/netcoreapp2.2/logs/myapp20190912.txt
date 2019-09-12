@@ -1,0 +1,162 @@
+2019-09-12 22:49:29.679 +03:00 [ERR] Access to the path 'C:\$Recycle.Bin\S-1-5-18' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\$Recycle.Bin\S-1-5-18' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:49:36.264 +03:00 [ERR] Access to the path 'C:\Documents and Settings' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\Documents and Settings' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:49:54.383 +03:00 [ERR] Access to the path 'C:\inetpub\history' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\inetpub\history' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:23.488 +03:00 [ERR] Access to the path 'C:\$Recycle.Bin\S-1-5-18' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\$Recycle.Bin\S-1-5-18' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:23.854 +03:00 [ERR] Access to the path 'C:\Documents and Settings' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\Documents and Settings' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:23.928 +03:00 [ERR] Access to the path 'C:\inetpub\history' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\inetpub\history' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.042 +03:00 [ERR] Access to the path 'C:\Program Files\WindowsApps\Deleted' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\Program Files\WindowsApps\Deleted' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.072 +03:00 [ERR] Access to the path 'C:\Program Files (x86)\Google\CrashReports' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\Program Files (x86)\Google\CrashReports' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.098 +03:00 [ERR] Access to the path 'C:\ProgramData\Application Data' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\Application Data' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.128 +03:00 [ERR] Access to the path 'C:\System Volume Information' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\System Volume Information' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.154 +03:00 [ERR] Access to the path 'C:\Users\Default User' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\Users\Default User' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.179 +03:00 [ERR] Access to the path 'C:\Windows\InfusedApps' is denied.
+System.UnauthorizedAccessException: Access to the path 'C:\Windows\InfusedApps' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.203 +03:00 [ERR] Access to the path 'E:\$RECYCLE.BIN\S-1-5-18' is denied.
+System.UnauthorizedAccessException: Access to the path 'E:\$RECYCLE.BIN\S-1-5-18' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.485 +03:00 [ERR] Access to the path 'E:\System Volume Information' is denied.
+System.UnauthorizedAccessException: Access to the path 'E:\System Volume Information' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.512 +03:00 [ERR] Access to the path 'F:\$Recycle.Bin\S-1-5-18' is denied.
+System.UnauthorizedAccessException: Access to the path 'F:\$Recycle.Bin\S-1-5-18' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:24.551 +03:00 [ERR] Access to the path 'F:\Documents and Settings' is denied.
+System.UnauthorizedAccessException: Access to the path 'F:\Documents and Settings' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:28.964 +03:00 [ERR] Access to the path 'F:\PerfLogs\Admin' is denied.
+System.UnauthorizedAccessException: Access to the path 'F:\PerfLogs\Admin' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
+2019-09-12 22:58:29.345 +03:00 [ERR] Access to the path 'F:\Program Files\WindowsApps' is denied.
+System.UnauthorizedAccessException: Access to the path 'F:\Program Files\WindowsApps' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateRelativeDirectoryHandle(ReadOnlySpan`1 relativePath, String fullPath)
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, SearchOption searchOption)
+   at FileFinder.Managers.DirectoryManager.GetAllDirectoriesFromPath(String path) in C:\Users\Dima\Documents\Programming\FinderFilesOnWindows\FileFinder\FileFinder\Managers\DirectoryManager.cs:line 15
