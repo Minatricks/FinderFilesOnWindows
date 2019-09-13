@@ -1,0 +1,17 @@
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.Tests.deps.json
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.Tests.runtimeconfig.json
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.Tests.runtimeconfig.dev.json
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.Tests.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.Tests.pdb
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\bin\Release\netcoreapp2.2\FileFinder.pdb
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.csprojAssemblyReference.cache
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.AssemblyInfoInputs.cache
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.AssemblyInfo.cs
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.csproj.CopyComplete
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder.Tests\obj\Release\netcoreapp2.2\FileFinder.Tests.pdb

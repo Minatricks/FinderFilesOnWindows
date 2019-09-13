@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using FileFinder.Finders.Interfaces;
 using FileFinder.Managers.Interface;
 using System.Collections.Generic;
@@ -11,24 +12,37 @@ namespace FileFinder
 {
     public class Finder : IFinder
     {
-        private IDirectoryManager _directoryManager;
-        private IDriverManager _driverManager;
-
-        private const int ChankSize = 100;
-        public CommonQueue<string> _directories;
+        public int Count { get; set; }
+        private const int  _chankSize = 1000;
+        private readonly IDirectoryManager _directoryManager;
+        private readonly IDriverManager _driverManager;
+        private readonly int _waitTime = (int)(new TimeSpan(0, 2, 30).TotalMilliseconds);
+        private readonly ConcurrentQueue<string> _directories;
 
         public Finder(IDirectoryManager directoryManager, IDriverManager driverManager)
         {
             _directoryManager = directoryManager;
             _driverManager = driverManager;
-            _directories = new CommonQueue<string>();
+            _directories = new ConcurrentQueue<string>();
+            Count = 0;
         }
 
-        public void OrganizeWork(string pathToFile)
+        public void FindAllFoldersAndWriteToFile(string pathToFile)
         {
             try
             {
-                Parallel.Invoke(() => PutFoldersToDirectories(), () => GetAndDeleteFolderFromDirectories(pathToFile));
+                var insertionTask = Task.Run(() =>
+                {
+                    ConsoleWriter.PrintLineWithColor(Thread.CurrentThread.ManagedThreadId.ToString(), ConsoleColor.Cyan);
+                    PutFoldersToDirectories();
+                });
+                var gettingTask = Task.Run(() =>
+                {
+                    ConsoleWriter.PrintLineWithColor(Thread.CurrentThread.ManagedThreadId.ToString(), ConsoleColor.Cyan);
+                    GetAndDeleteFolderFromDirectories(pathToFile);
+                });
+                insertionTask.Wait(_waitTime);
+                gettingTask.Wait(_waitTime);
             }
             catch (AggregateException e)
             {
@@ -52,6 +66,7 @@ namespace FileFinder
                     foreach (var directory in _directoryManager.GetAllDirectoriesFromPath(path))
                     {
                         _directories.Enqueue(directory);
+                        Count++;
                         ConsoleWriter.PrintLineWithColor(directory, ConsoleColor.Green);
                     }
                 }
@@ -60,27 +75,31 @@ namespace FileFinder
 
         private void GetAndDeleteFolderFromDirectories(string filePath)
         {
-            var proccesing = true;
-            while (proccesing)
+            var processing = true;
+            while (processing)
             {
-                CheckDirectories(ref proccesing);
+                WaitOnDictionaryInsertion(ref processing);
                 var tempDirectories = new List<string>();
                 while (_directories.Count != 0)
                 {
-                    var tempDirectory = _directories.Dequeue();
-                    if (!string.IsNullOrEmpty(tempDirectory))
+                    var result = _directories.TryDequeue(out var tempDirectory);
+                    if (result)
                     {
                         tempDirectories.Add(tempDirectory);
                         ConsoleWriter.PrintLineWithColor(tempDirectory, ConsoleColor.Yellow);
                     }
+
+                    if (tempDirectory.Length > _chankSize)
+                    {
+                        WriteInFile(filePath, tempDirectories);
+                    }
                 }
 
-                FileWriter.FileWriter.WriteToFile(filePath, tempDirectories);
-                ConsoleWriter.PrintLineWithColor("Writing to file", ConsoleColor.Red);
+                WriteInFile(filePath, tempDirectories);
             }
         }
 
-        private void CheckDirectories(ref bool proccesing)
+        private void WaitOnDictionaryInsertion(ref bool proccesing)
         {
             if (_directories.Count == 0)
             {
@@ -90,10 +109,21 @@ namespace FileFinder
                     Thread.Sleep(1000);
                     if (_directories.Count == 0)
                     {
-                        proccesing = false;
+                        Thread.Sleep(4000);
+                        if (_directories.Count == 0)
+                        {
+                            proccesing = false;
+                        }
                     }
                 }
             }
+        }
+
+        private void WriteInFile(string filePath,List<string> tempDirectories)
+        {
+            FileWriter.FileWriter.WriteToFile(filePath, tempDirectories);
+            tempDirectories = null;
+            ConsoleWriter.PrintLineWithColor("Writing to file", ConsoleColor.Red);
         }
     }
 }

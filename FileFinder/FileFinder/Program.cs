@@ -3,6 +3,7 @@ using FileFinder.Managers;
 using Serilog;
 using System;
 using System.Linq;
+using FileFinder.Writers;
 
 namespace FileFinder
 {
@@ -16,6 +17,7 @@ namespace FileFinder
 
             var finder = new Finder(directoryManager, driverManager);
             finder.OrganizeWork($"C:\\Users\\{Environment.UserName}\\Folders.txt");
+            ConsoleWriter.PrintLineWithColor(finder.Count.ToString(), ConsoleColor.Magenta);
         }
     }
 }

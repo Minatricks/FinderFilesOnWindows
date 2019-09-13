@@ -1,0 +1,11 @@
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\bin\Release\netcoreapp2.2\FileFinder.deps.json
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\bin\Release\netcoreapp2.2\FileFinder.runtimeconfig.json
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\bin\Release\netcoreapp2.2\FileFinder.runtimeconfig.dev.json
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\bin\Release\netcoreapp2.2\FileFinder.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\bin\Release\netcoreapp2.2\FileFinder.pdb
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\obj\Release\netcoreapp2.2\FileFinder.csprojAssemblyReference.cache
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\obj\Release\netcoreapp2.2\FileFinder.csproj.CoreCompileInputs.cache
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\obj\Release\netcoreapp2.2\FileFinder.AssemblyInfoInputs.cache
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\obj\Release\netcoreapp2.2\FileFinder.AssemblyInfo.cs
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\obj\Release\netcoreapp2.2\FileFinder.dll
+C:\Users\Dmytro_Kirieiev\Documents\FinderFilesOnWindows\FileFinder\FileFinder\obj\Release\netcoreapp2.2\FileFinder.pdb
