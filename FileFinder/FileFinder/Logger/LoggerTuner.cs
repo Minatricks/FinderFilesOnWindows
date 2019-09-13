@@ -9,7 +9,7 @@ namespace FileFinder.Logger
         {
             return new LoggerConfiguration()
                 .MinimumLevel.Debug()
-                .WriteTo.File("logs\\myapp.txt", rollingInterval: RollingInterval.Day)
+                .WriteTo.File("logs\\logs.txt", rollingInterval: RollingInterval.Day)
                 .CreateLogger();
         }
     }

@@ -2,6 +2,7 @@
 using FileFinder.Managers;
 using Serilog;
 using System;
+using System.Linq;
 
 namespace FileFinder
 {
@@ -10,8 +11,11 @@ namespace FileFinder
         public static void Main()
         {
             Log.Logger = LoggerTuner.TuneLoge();
-            var finder = new Finder(directoryManager: new DirectoryManager(), driverManager: new DriverManager());
-            finder.OrganizeWork("C:/Users/Dima/Desktop/Folders.txt");
+            var directoryManager = new DirectoryManager();
+            var driverManager = new DriverManager();
+
+            var finder = new Finder(directoryManager, driverManager);
+            finder.OrganizeWork($"C:\\Users\\{Environment.UserName}\\Folders.txt");
         }
     }
 }

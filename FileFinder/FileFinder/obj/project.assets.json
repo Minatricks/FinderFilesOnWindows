@@ -1084,7 +1084,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -2364,27 +2364,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dima\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Dmytro_Kirieiev\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dima\\Documents\\Programming\\FinderFilesOnWindows\\FileFinder\\FileFinder\\FileFinder.csproj",
+      "projectUniqueName": "C:\\Users\\Dmytro_Kirieiev\\Documents\\FinderFilesOnWindows\\FileFinder\\FileFinder\\FileFinder.csproj",
       "projectName": "FileFinder",
-      "projectPath": "C:\\Users\\Dima\\Documents\\Programming\\FinderFilesOnWindows\\FileFinder\\FileFinder\\FileFinder.csproj",
-      "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dima\\Documents\\Programming\\FinderFilesOnWindows\\FileFinder\\FileFinder\\obj\\",
+      "projectPath": "C:\\Users\\Dmytro_Kirieiev\\Documents\\FinderFilesOnWindows\\FileFinder\\FileFinder\\FileFinder.csproj",
+      "packagesPath": "C:\\Users\\Dmytro_Kirieiev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dmytro_Kirieiev\\Documents\\FinderFilesOnWindows\\FileFinder\\FileFinder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Dmytro_Kirieiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
